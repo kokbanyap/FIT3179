@@ -7,7 +7,7 @@
     "layer":[
         {
             "data":{
-            "url": "https://raw.githubusercontent.com/kokbanyap/FIT3179/main/Homework-Week9/ne_110m_admin_0_countries.json",
+            "url": "https://raw.githubusercontent.com/kokbanyap/FIT3179_Homework9/main/Homework-Week9/ne_110m_admin_0_countries.json",
             "format":{"type":"topojson","feature":"ne_110m_admin_0_countries"}
             },
             "mark":{"type":"geoshape","fill":"darkgrey","stroke":"lightgray"}
@@ -22,14 +22,14 @@
         },
         {
             "data":{
-                "url": "https://raw.githubusercontent.com/kokbanyap/FIT3179/main/Homework-Week9/ne_110m_admin_0_countries.json",
+                "url": "https://raw.githubusercontent.com/kokbanyap/FIT3179_Homework9/main/Homework-Week9/ne_110m_admin_0_countries.json",
                 "format":{"type":"topojson","feature":"ne_110m_graticules_30"}
                 },
                 "mark":{"type":"geoshape","fill":null,"stroke":"darkgray"}
         },
         {
             "data":{
-                "url": "https://raw.githubusercontent.com/kokbanyap/FIT3179/main/Homework-Week9/ne_110m_admin_0_countries.json",
+                "url": "https://raw.githubusercontent.com/kokbanyap/FIT3179_Homework9/main/Homework-Week9/ne_110m_admin_0_countries.json",
                 "format":{"type":"topojson","feature":"ne_110m_admin_0_countries"}
             },
             "transform": [
@@ -37,7 +37,7 @@
                     "lookup": "properties.NAME",
                     "from":{
                         "data":{
-                            "url":"https://raw.githubusercontent.com/kokbanyap/FIT3179/main/Homework-Week9/unemployment_dataset.csv"
+                            "url":"https://raw.githubusercontent.com/kokbanyap/FIT3179_Homework9/main/Homework-Week9/unemployment_dataset.csv"
                         },
                         "key": "CountryName",
                         "fields": ["2021"]
